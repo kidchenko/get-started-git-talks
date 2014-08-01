@@ -200,6 +200,7 @@
 						<pre>
 							<code class="bash">
 	$ git diff
+	$ git diff --staged
 							</code>
 						</pre>
 					</section>
@@ -238,9 +239,37 @@
 					<div>
 						<h3>Git Workflow</h3>
 						<img src="imgs/git_workflow.png">
-
 					</div>
 					<a href="http://bit.ly/MgjmhR">http://bit.ly/MgjmhR</a>
+				</section>
+				<section>
+					<section>
+						<h3>Undo</h3>
+					</section>
+					<section>
+						<p>git commit --amend</p>
+						<pre>
+							<code class="bash">
+	$ git commit --amend -m "Nova mensagem do commit"
+							</code>
+				        </pre>
+					</section>
+					<section>
+						<p>git reset HEAD &#60;file&#62;</p>
+						<pre>
+							<code class="bash">
+	$ git reset HEAD index.html
+							</code>
+				        </pre>
+					</section>
+					<section>
+						<p>git checkout -- &#60;file&#62;</p>
+						<pre>
+							<code class="bash">
+	$ git checkout index.html
+							</code>
+				        </pre>
+					</section>
 				</section>
 			</div>
 		</div>
